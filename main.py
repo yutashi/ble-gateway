@@ -12,7 +12,7 @@ except KeyError as e:
     sys.exit('Couldn\'t find env: {}'.format(e))
 
 sensors = [
-    {'addr': DISTANCE_SENSOR, 'svc': DISTANCE_SERVICE}
+    {'addr': DISTANCE_SENSOR, 'svc': DISTANCE_SERVICE},
     {'addr': DISTANCE_SENSOR_2, 'svc': DISTANCE_SERVICE}
 ]
 
